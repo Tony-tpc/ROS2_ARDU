@@ -1,0 +1,21 @@
+[0.749s] Invoking command in '/home/tony/ros/learn/ros_ardu/src/robo_description': PYTHONPATH=/home/tony/ros/learn/ros_ardu/build/robo_description/prefix_override:/home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robo_description build --build-base /home/tony/ros/learn/ros_ardu/build/robo_description/build install --record /home/tony/ros/learn/ros_ardu/build/robo_description/install.log --single-version-externally-managed install_data
+[0.886s] running egg_info
+[0.886s] writing ../../build/robo_description/robo_description.egg-info/PKG-INFO
+[0.886s] writing dependency_links to ../../build/robo_description/robo_description.egg-info/dependency_links.txt
+[0.886s] writing entry points to ../../build/robo_description/robo_description.egg-info/entry_points.txt
+[0.886s] writing requirements to ../../build/robo_description/robo_description.egg-info/requires.txt
+[0.886s] writing top-level names to ../../build/robo_description/robo_description.egg-info/top_level.txt
+[0.888s] reading manifest file '../../build/robo_description/robo_description.egg-info/SOURCES.txt'
+[0.889s] writing manifest file '../../build/robo_description/robo_description.egg-info/SOURCES.txt'
+[0.889s] running build
+[0.889s] running build_py
+[0.889s] running install
+[0.889s] running install_lib
+[0.890s] running install_data
+[0.890s] copying launch/robo_description.launch.py -> /home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/launch
+[0.890s] running install_egg_info
+[0.892s] removing '/home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages/robo_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.893s] Copying ../../build/robo_description/robo_description.egg-info to /home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages/robo_description-0.0.0-py3.10.egg-info
+[0.893s] running install_scripts
+[0.906s] writing list of installed files to '/home/tony/ros/learn/ros_ardu/build/robo_description/install.log'
+[0.925s] Invoked command in '/home/tony/ros/learn/ros_ardu/src/robo_description' returned '0': PYTHONPATH=/home/tony/ros/learn/ros_ardu/build/robo_description/prefix_override:/home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robo_description build --build-base /home/tony/ros/learn/ros_ardu/build/robo_description/build install --record /home/tony/ros/learn/ros_ardu/build/robo_description/install.log --single-version-externally-managed install_data

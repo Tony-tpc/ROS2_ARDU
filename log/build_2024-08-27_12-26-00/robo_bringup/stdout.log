@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/robo_bringup/robo_bringup.egg-info
+writing ../../build/robo_bringup/robo_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/robo_bringup/robo_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/robo_bringup/robo_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/robo_bringup/robo_bringup.egg-info/requires.txt
+writing top-level names to ../../build/robo_bringup/robo_bringup.egg-info/top_level.txt
+writing manifest file '../../build/robo_bringup/robo_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/robo_bringup/robo_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/robo_bringup/robo_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tony/ros/learn/ros_ardu/build/robo_bringup/build
+creating /home/tony/ros/learn/ros_ardu/build/robo_bringup/build/lib
+creating /home/tony/ros/learn/ros_ardu/build/robo_bringup/build/lib/robo_bringup
+copying robo_bringup/__init__.py -> /home/tony/ros/learn/ros_ardu/build/robo_bringup/build/lib/robo_bringup
+running install
+running install_lib
+creating /home/tony/ros/learn/ros_ardu/install/robo_bringup/lib/python3.10/site-packages/robo_bringup
+copying /home/tony/ros/learn/ros_ardu/build/robo_bringup/build/lib/robo_bringup/__init__.py -> /home/tony/ros/learn/ros_ardu/install/robo_bringup/lib/python3.10/site-packages/robo_bringup
+byte-compiling /home/tony/ros/learn/ros_ardu/install/robo_bringup/lib/python3.10/site-packages/robo_bringup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/tony/ros/learn/ros_ardu/install/robo_bringup/share/ament_index
+creating /home/tony/ros/learn/ros_ardu/install/robo_bringup/share/ament_index/resource_index
+creating /home/tony/ros/learn/ros_ardu/install/robo_bringup/share/ament_index/resource_index/packages
+copying resource/robo_bringup -> /home/tony/ros/learn/ros_ardu/install/robo_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup
+running install_egg_info
+Copying ../../build/robo_bringup/robo_bringup.egg-info to /home/tony/ros/learn/ros_ardu/install/robo_bringup/lib/python3.10/site-packages/robo_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/tony/ros/learn/ros_ardu/build/robo_bringup/install.log'

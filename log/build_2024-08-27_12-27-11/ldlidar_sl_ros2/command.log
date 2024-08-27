@@ -1,0 +1,1 @@
+Invoking command in '/home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge:/home/tony/ros/learn/ros_ardu/install/robo_description:/home/tony/ros/learn/ros_ardu/install/robo_bringup:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2 -- -j32 -l32

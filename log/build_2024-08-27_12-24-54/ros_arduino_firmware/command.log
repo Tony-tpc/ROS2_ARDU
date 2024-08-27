@@ -1,0 +1,2 @@
+Invoking command in '/home/tony/ros/learn/ros_ardu/build/ros_arduino_firmware': /usr/bin/cmake /home/tony/ros/learn/ros_ardu/ros_arduino_bridge/ros_arduino_firmware -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tony/ros/learn/ros_ardu/install/ros_arduino_firmware
+Invoked command in '/home/tony/ros/learn/ros_ardu/build/ros_arduino_firmware' returned '1': /usr/bin/cmake /home/tony/ros/learn/ros_ardu/ros_arduino_bridge/ros_arduino_firmware -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tony/ros/learn/ros_ardu/install/ros_arduino_firmware

@@ -1,0 +1,3 @@
+Invoking command in '/home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2 -- -j32 -l32
+Invoked command in '/home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2 -- -j32 -l32
+Invoking command in '/home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2

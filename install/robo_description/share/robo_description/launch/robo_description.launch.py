@@ -26,15 +26,15 @@ def generate_launch_description():
         arguments=[urdf_model_path]
         )
 
-    rviz2_node = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen',
-        )
+    # rviz2_node = Node(
+    #     package='rviz2',
+    #     executable='rviz2',
+    #     name='rviz2',
+    #     output='screen',
+    #     )
 
     ld.add_action(robot_state_publisher_node)
     ld.add_action(joint_state_publisher_node)
-    ld.add_action(rviz2_node)
+    # ld.add_action(rviz2_node)
 
     return ld

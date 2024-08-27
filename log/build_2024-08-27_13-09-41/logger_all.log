@@ -1,0 +1,291 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x710862434a30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x710862434040>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x710862434040>>)
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tony/ros/learn/ros_ardu'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldlidar_sl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_sl_ros2'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_bringup) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_bringup' with type 'ros.ament_python' and name 'robo_bringup'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_description) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_description) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_description) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_description) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_description) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_description) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_description) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_description) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_description' with type 'ros.ament_python' and name 'robo_description'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_bridge) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_bridge) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_bridge) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_bridge) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_bridge) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_bridge) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_bridge) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_arduino_bridge) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_arduino_bridge' with type 'ros.ament_python' and name 'ros2_arduino_bridge'
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/tony/ros/learn/ros_ardu/install
+[0.192s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 372 installed packages in /opt/ros/humble
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_sl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2', 'merge_install': False, 'path': '/home/tony/ros/learn/ros_ardu/src/ldlidar_sl_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'robo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tony/ros/learn/ros_ardu/build/robo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tony/ros/learn/ros_ardu/install/robo_bringup', 'merge_install': False, 'path': '/home/tony/ros/learn/ros_ardu/src/robo_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_description' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_description' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'robo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'robo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tony/ros/learn/ros_ardu/build/robo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tony/ros/learn/ros_ardu/install/robo_description', 'merge_install': False, 'path': '/home/tony/ros/learn/ros_ardu/src/robo_description', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_bridge' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_bridge' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'ros2_arduino_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_arduino_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge', 'merge_install': False, 'path': '/home/tony/ros/learn/ros_ardu/src/ros2_arduino_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.221s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.222s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.222s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tony/ros/learn/ros_ardu/src/ldlidar_sl_ros2' with build type 'ament_cmake'
+[0.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tony/ros/learn/ros_ardu/src/ldlidar_sl_ros2'
+[0.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.225s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tony/ros/learn/ros_ardu/src/robo_bringup' with build type 'ament_python'
+[0.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_bringup', 'ament_prefix_path')
+[0.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/hook/ament_prefix_path.ps1'
+[0.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/hook/ament_prefix_path.dsv'
+[0.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/hook/ament_prefix_path.sh'
+[0.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tony/ros/learn/ros_ardu/src/robo_description' with build type 'ament_python'
+[0.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_description', 'ament_prefix_path')
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/hook/ament_prefix_path.ps1'
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/hook/ament_prefix_path.dsv'
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/hook/ament_prefix_path.sh'
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.232s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tony/ros/learn/ros_ardu/src/ros2_arduino_bridge' with build type 'ament_python'
+[0.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_arduino_bridge', 'ament_prefix_path')
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/ament_prefix_path.ps1'
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/ament_prefix_path.dsv'
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/ament_prefix_path.sh'
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge:/home/tony/ros/learn/ros_ardu/install/robo_description:/home/tony/ros/learn/ros_ardu/install/robo_bringup:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2 -- -j32 -l32
+[0.391s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tony/ros/learn/ros_ardu/src/robo_bringup'
+[0.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.547s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tony/ros/learn/ros_ardu/src/robo_description'
+[0.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.704s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tony/ros/learn/ros_ardu/src/ros2_arduino_bridge'
+[0.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge:/home/tony/ros/learn/ros_ardu/install/robo_description:/home/tony/ros/learn/ros_ardu/install/robo_bringup:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2 -- -j32 -l32
+[0.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge:/home/tony/ros/learn/ros_ardu/install/robo_description:/home/tony/ros/learn/ros_ardu/install/robo_bringup:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2
+[0.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[0.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge:/home/tony/ros/learn/ros_ardu/install/robo_description:/home/tony/ros/learn/ros_ardu/install/robo_bringup:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros/learn/ros_ardu/build/ldlidar_sl_ros2
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2' for CMake module files
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2' for CMake config files
+[0.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/lib'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/bin'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/lib/python3.10/site-packages'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/bin'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[0.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[0.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2' for CMake module files
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2' for CMake config files
+[0.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/lib'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/bin'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/lib/python3.10/site-packages'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/bin'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[0.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tony/ros/learn/ros_ardu/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[1.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tony/ros/learn/ros_ardu/src/ros2_arduino_bridge': PYTHONPATH=/home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/prefix_override:/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_bridge build --build-base /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build install --record /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/install.log --single-version-externally-managed install_data
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tony/ros/learn/ros_ardu/src/robo_description': PYTHONPATH=/home/tony/ros/learn/ros_ardu/build/robo_description/prefix_override:/home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robo_description build --build-base /home/tony/ros/learn/ros_ardu/build/robo_description/build install --record /home/tony/ros/learn/ros_ardu/build/robo_description/install.log --single-version-externally-managed install_data
+[1.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tony/ros/learn/ros_ardu/src/robo_bringup': PYTHONPATH=/home/tony/ros/learn/ros_ardu/build/robo_bringup/prefix_override:/home/tony/ros/learn/ros_ardu/install/robo_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robo_bringup build --build-base /home/tony/ros/learn/ros_ardu/build/robo_bringup/build install --record /home/tony/ros/learn/ros_ardu/build/robo_bringup/install.log --single-version-externally-managed install_data
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge' for CMake module files
+[1.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tony/ros/learn/ros_ardu/src/ros2_arduino_bridge' returned '0': PYTHONPATH=/home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/prefix_override:/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_arduino_bridge build --build-base /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build install --record /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/install.log --single-version-externally-managed install_data
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge' for CMake config files
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/pkgconfig/ros2_arduino_bridge.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages'
+[1.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_arduino_bridge', 'pythonpath')
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/pythonpath.ps1'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/pythonpath.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/hook/pythonpath.sh'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/bin'
+[1.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_arduino_bridge)
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.dsv'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.sh'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.bash'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/package.zsh'
+[1.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/colcon-core/packages/ros2_arduino_bridge)
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_description' for CMake module files
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_description' for CMake config files
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tony/ros/learn/ros_ardu/src/robo_description' returned '0': PYTHONPATH=/home/tony/ros/learn/ros_ardu/build/robo_description/prefix_override:/home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robo_description build --build-base /home/tony/ros/learn/ros_ardu/build/robo_description/build install --record /home/tony/ros/learn/ros_ardu/build/robo_description/install.log --single-version-externally-managed install_data
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_description/lib'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_description/bin'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_description/lib/pkgconfig/robo_description.pc'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages'
+[1.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_description', 'pythonpath')
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/hook/pythonpath.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/hook/pythonpath.dsv'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/hook/pythonpath.sh'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_description/bin'
+[1.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_description)
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/package.ps1'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/package.dsv'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/package.sh'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/package.bash'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/package.zsh'
+[1.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tony/ros/learn/ros_ardu/install/robo_description/share/colcon-core/packages/robo_description)
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_bringup' for CMake module files
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_bringup' for CMake config files
+[1.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tony/ros/learn/ros_ardu/src/robo_bringup' returned '0': PYTHONPATH=/home/tony/ros/learn/ros_ardu/build/robo_bringup/prefix_override:/home/tony/ros/learn/ros_ardu/install/robo_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robo_bringup build --build-base /home/tony/ros/learn/ros_ardu/build/robo_bringup/build install --record /home/tony/ros/learn/ros_ardu/build/robo_bringup/install.log --single-version-externally-managed install_data
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_bringup/lib'
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_bringup/bin'
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_bringup/lib/pkgconfig/robo_bringup.pc'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_bringup/lib/python3.10/site-packages'
+[1.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_bringup', 'pythonpath')
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/hook/pythonpath.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/hook/pythonpath.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/hook/pythonpath.sh'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/tony/ros/learn/ros_ardu/install/robo_bringup/bin'
+[1.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_bringup)
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/package.ps1'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/package.dsv'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/package.sh'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/package.bash'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/robo_bringup/package.zsh'
+[1.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tony/ros/learn/ros_ardu/install/robo_bringup/share/colcon-core/packages/robo_bringup)
+[1.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.193s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.196s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.206s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.207s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tony/ros/learn/ros_ardu/install/local_setup.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tony/ros/learn/ros_ardu/install/_local_setup_util_ps1.py'
+[1.208s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tony/ros/learn/ros_ardu/install/setup.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tony/ros/learn/ros_ardu/install/local_setup.sh'
+[1.209s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tony/ros/learn/ros_ardu/install/_local_setup_util_sh.py'
+[1.209s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tony/ros/learn/ros_ardu/install/setup.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tony/ros/learn/ros_ardu/install/local_setup.bash'
+[1.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tony/ros/learn/ros_ardu/install/setup.bash'
+[1.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tony/ros/learn/ros_ardu/install/local_setup.zsh'
+[1.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tony/ros/learn/ros_ardu/install/setup.zsh'
