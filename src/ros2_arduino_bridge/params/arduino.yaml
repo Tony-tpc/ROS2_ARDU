@@ -1,0 +1,26 @@
+/ros2_arduino_node:
+  ros__parameters:
+    Kp: 8
+    Kd: 12
+    Ki: 0
+    Ko: 50
+    accel_limit: 1.0
+    base_controller_rate: 10
+    base_controller_timeout: 0.1
+    base_frame: base_footprint
+    odom_frame: odom
+    baud: 57600
+    encoder_resolution: 1560
+    gear_reduction: 1
+    motors_reversed: false
+    port: /dev/myarduino
+    rate: 50
+    timeout: 0.1
+    use_sim_time: false
+    wheel_diameter: 0.065
+    wheel_track: 0.1625
+    max_vel_x: 0.18
+    min_vel_x: -0.18
+    max_vel_th: 0.8
+    min_vel_th: -0.8
+

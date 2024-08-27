@@ -1,0 +1,3 @@
+[console_scripts]
+arduino_node = ros2_arduino_bridge.arduino_node:main
+

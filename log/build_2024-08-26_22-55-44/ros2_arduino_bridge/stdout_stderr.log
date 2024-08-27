@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info
+writing ../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info/requires.txt
+writing top-level names to ../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info/top_level.txt
+writing manifest file '../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build
+creating /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib
+creating /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib/ros2_arduino_bridge
+copying ros2_arduino_bridge/arduino_node.py -> /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib/ros2_arduino_bridge
+copying ros2_arduino_bridge/base_controller.py -> /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib/ros2_arduino_bridge
+copying ros2_arduino_bridge/__init__.py -> /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib/ros2_arduino_bridge
+copying ros2_arduino_bridge/arduino_driver.py -> /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib/ros2_arduino_bridge
+running install
+running install_lib
+creating /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge
+copying /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib/ros2_arduino_bridge/arduino_node.py -> /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge
+copying /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib/ros2_arduino_bridge/base_controller.py -> /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge
+copying /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib/ros2_arduino_bridge/__init__.py -> /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge
+copying /home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/build/lib/ros2_arduino_bridge/arduino_driver.py -> /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge
+byte-compiling /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge/arduino_node.py to arduino_node.cpython-310.pyc
+byte-compiling /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge/base_controller.py to base_controller.cpython-310.pyc
+byte-compiling /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge/arduino_driver.py to arduino_driver.cpython-310.pyc
+running install_data
+creating /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ament_index
+creating /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ament_index/resource_index
+creating /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ament_index/resource_index/packages
+copying resource/ros2_arduino_bridge -> /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge
+copying launch/ros2_arduino.launch.py -> /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge
+creating /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/params
+copying params/arduino.yaml -> /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/share/ros2_arduino_bridge/params
+running install_egg_info
+Copying ../../build/ros2_arduino_bridge/ros2_arduino_bridge.egg-info to /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/python3.10/site-packages/ros2_arduino_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arduino_node script to /home/tony/ros/learn/ros_ardu/install/ros2_arduino_bridge/lib/ros2_arduino_bridge
+writing list of installed files to '/home/tony/ros/learn/ros_ardu/build/ros2_arduino_bridge/install.log'

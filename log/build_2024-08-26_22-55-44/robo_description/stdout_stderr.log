@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robo_description/robo_description.egg-info
+writing ../../build/robo_description/robo_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/robo_description/robo_description.egg-info/dependency_links.txt
+writing entry points to ../../build/robo_description/robo_description.egg-info/entry_points.txt
+writing requirements to ../../build/robo_description/robo_description.egg-info/requires.txt
+writing top-level names to ../../build/robo_description/robo_description.egg-info/top_level.txt
+writing manifest file '../../build/robo_description/robo_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/robo_description/robo_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/robo_description/robo_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tony/ros/learn/ros_ardu/build/robo_description/build
+creating /home/tony/ros/learn/ros_ardu/build/robo_description/build/lib
+creating /home/tony/ros/learn/ros_ardu/build/robo_description/build/lib/robo_description
+copying robo_description/__init__.py -> /home/tony/ros/learn/ros_ardu/build/robo_description/build/lib/robo_description
+running install
+running install_lib
+creating /home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages/robo_description
+copying /home/tony/ros/learn/ros_ardu/build/robo_description/build/lib/robo_description/__init__.py -> /home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages/robo_description
+byte-compiling /home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages/robo_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/tony/ros/learn/ros_ardu/install/robo_description/share/ament_index
+creating /home/tony/ros/learn/ros_ardu/install/robo_description/share/ament_index/resource_index
+creating /home/tony/ros/learn/ros_ardu/install/robo_description/share/ament_index/resource_index/packages
+copying resource/robo_description -> /home/tony/ros/learn/ros_ardu/install/robo_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description
+creating /home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/launch
+copying launch/robo_description.launch.py -> /home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/launch
+creating /home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/urdf
+copying urdf/robo_description.urdf -> /home/tony/ros/learn/ros_ardu/install/robo_description/share/robo_description/urdf
+running install_egg_info
+Copying ../../build/robo_description/robo_description.egg-info to /home/tony/ros/learn/ros_ardu/install/robo_description/lib/python3.10/site-packages/robo_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/tony/ros/learn/ros_ardu/build/robo_description/install.log'
